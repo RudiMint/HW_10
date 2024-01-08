@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythonproject7"
+version = "0.1.0"
+description = ""
+authors = ["Anastasia <ashevchenko629@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.1"
+bson = "^0.5.10"
+pymongo = "^4.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
